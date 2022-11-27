@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './views/App';
 
 // nova forma de acessar a div root
 // import ReactDOM from 'react-dom/client';
@@ -13,6 +14,6 @@ import ReactDOM from 'react-dom';
 // )
 
 ReactDOM.render(
-    <h1>App</h1>,
+    <App />,
     document.getElementById('root')
 )
